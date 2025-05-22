@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, pink, blueviolet);
+}
+
+.cartao {
+    width: 1000px;
+    height: 500px;
+    background: linear-gradient(to right, pink, blueviolet);
+    color: white;
+    border-radius: 100px 10px 100px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.3);
+    animation: levitar 2s ease-in-out infinite;
+
+}
+
+@keyframes levitar {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.info {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #ffffff;
+    width: 50%;
+    margin: 30px auto;
+}
+
+#img {
+    width: 100%;
+    gap: 20px;   
+    height: 100%;  
+    overflow: hidden; 
+    border-radius:100px 0px 100px 10px;
+    position: relative;
+}
+
+#img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(45deg, pink, blueviolet);
+    background-size: 200% 200%;
+    transition: transform 1s ease;
+    display: row;
+    flex-direction: column;
+}
+
+.icons:hover {
+    background-position: 100% 0;
+    transform: scale(1.5);
+}
+
+#botao {
+    width: 250px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(45deg, pink, blueviolet);
+    background-size: 200% 200%;
+    transition: transform 1s ease-in-out;
+}
+
+#botao:hover {
+    background-position: 100% 0;
+    transform: scale(1.1);
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#img:hover {
+    transform: scale(1.05); 
+    transition: transform 0.3s ease-in-out;
+}
+
+.icons:hover {
+    background-position: 100% 0;
+    transform: rotate(360deg) scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
+.cartao:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px); 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+p:hover {
+    transform: scale(1.05);
+}
+
+h1:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+

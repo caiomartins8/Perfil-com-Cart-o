@@ -1,0 +1,145 @@
+body {
+    background-image: url('the-background-292729_1920.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+
+.borda,
+#borda1,
+.borda3 {
+    border-radius: 10px;
+    border: solid 2px #ffe5ac;
+    height: 500px;
+    width: 400px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.6);
+    transition: transform 1s ease-in-out;
+}
+
+.borda:hover {
+    transform: scale(0.9);
+}
+
+#borda1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s ease;
+}
+
+#borda1:hover {
+    transform: rotate(180deg);
+}
+
+img {
+    width: 379px;
+    height: 419px;
+    border-radius: 10px;
+}
+
+#dp,
+#dp3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+#nome {
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    animation: levitar 2s ease-in-out infinite;
+    color: #ffe5ac;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2), 6px 6px 0px rgba(0, 0, 0, 0.15), 9px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@keyframes levitar {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.subtitulo {
+    font-size: 45px;
+    color: #ffe5ac;
+    text-align: center;
+}
+
+#rodape {
+    background-color: #ffe5ac;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(45deg, #ffe5ac, #ff0000);
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease;
+}
+
+.icons:hover {
+    background-position: 100% 0;
+    transform: scale(1.5);
+}
+
+p {
+    color: #ffe5ac;
+    text-align: center;
+    font-size: 25px;
+}
+
+#botao {
+    background-color: #ff0000;
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #ffe5ac, #ff0000);
+    background-size: 200% 200%;
+    transition: transform 1s ease-in-out;
+}
+
+#botao:hover {
+    background-position: 100% 0;
+    transform: scale(1.3);
+}
+
+a {
+    text-decoration: none;
+    color: #ffe5ac;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#dp2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

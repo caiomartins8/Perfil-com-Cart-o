@@ -1,0 +1,37 @@
+Como usar um favicon em uma página HTML?
+Favicon é a imagem que aparece junto com o título da aba , para usá-la é simples
+basta abrir a tag link dentro da Head e dentro do seu HREF colocar o caminho para imagem .
+
+O que é uma meta tag e para que serve?
+A tag META é uma tag que guarda informações técinicas sobre a página com , idioma , horário 
+, autor etc.
+
+Como criar um botão estilizado usando apenas HTML e CSS?
+Primeiro coloque  a tag button dentro do seu HTML com um seletor , chame-o no seu CSS que lá você
+irá conseguir estilizar , cor , altura , largura , a cor do seu texto e etc , já o a escrita 
+que fica dentro do botão escreve-se dentro do HTML mesmo , dentro da própria tag button .
+
+
+Como alinhar elementos lado a lado usando CSS?
+Usando a Display : Flex e Flex-direction: row , o DP primeiro colocará em seus elementos uma armação
+o FDR definirá em qual direção os elementos vão ficar alinhados e a prorpiedade row , indica linha , deixando 
+um elemento do lado do outro .
+
+Como adicionar um som ou um vídeo à página usando HTML?
+Para colocar som ou vídeo,  usamos as tags <audio> e <video>. Basta colocar o arquivo 
+de áudio ou vídeo dentro da tag e definir o controls para dar as opções de play, pause, etc. 
+No caos do áudio, usamos o <source> para indicar o caminho do arquivo. O mesmo vale para o vídeo.
+
+Como usar sombras em textos e caixas com CSS?
+Você pode usar text-shadow para adicionar sombra no texto e box-shadow para as caixas. 
+No text-shadow, você define onde a sombra vai ficar e a cor .
+ no box-shadow, você também define o lugar , mas com mais opções, como o desfoque da sombra.
+
+Como criar um rodapé fixo na parte inferior da página?
+Para criar um rodapé fixo, basta usar a propriedade position: fixed. 
+com isso o rodapé ficará fixo na parte de baixo da página, mesmo que você role a tela para cima ou para
+ baixo. 
+
+Como estilizar um botão para que ele mude de cor ao passar o mouse?
+Para fazer um botão mudar de cor quando passar o mouse, você usa o :hover no CSS. 
+depois de chamar o elemento com o :hover é so colocar background-color e a cor desejda. 
